@@ -1,0 +1,113 @@
+/* search section */
+
+#search {
+	background: #eee;
+	padding: 1em 5%;
+	border-bottom: 1px dashed #ccc;
+}
+
+/* search text label */
+
+#search label {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 1.2;
+	color: #ff7b00;
+	vertical-align: middle;
+	}
+
+/* search text */
+
+#search_text {
+	padding: .5em;
+	border: 1px solid #ccc;
+	margin: .25em .125em;
+}
+
+/* search button */
+
+#search_button {
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	background: #ff7b00;
+	padding: .8em 1.6em;
+	border: 1px solid #fff;
+	border-radius: .5em;
+	margin: .25em .125em;
+}
+
+#search_button:active, 
+#search_button:focus {
+	background: #555;
+}
+
+/* list, details */
+
+#list,
+#details {
+	float: left;
+	width: 29%;
+	margin: 0 0 0 3%;
+}
+
+#details {
+	width: 65%;
+	margin: 0 3% 0 0;
+}
+
+#list ul {
+	padding: 1.2em 1.6em;
+}
+
+#list li {
+	font-size: 90%;
+	color: #f90;
+	margin: .2em 0;
+}
+
+#list a {
+	font-size: 110%;
+	color: #000;
+	line-height: 1.4em;
+	text-decoration: none;
+	border-bottom: 1px dashed transparent;
+	vertical-align: middle;
+}
+
+#list a:hover,
+#list a:active,
+#list a:focus {
+	border-bottom: 1px solid #f90;
+}
+	
+#details {
+	padding: 1em 0;
+}
+
+#details h2 {
+	font-size: 1.8em;
+	line-height: 1.2;
+}
+
+#details h3 {
+	font: normal 1em/1.2 sans-serif;
+	color: #555;
+	margin: .4em 0 1em;
+}
+
+#poster {
+	float: left;
+	width: 32%;
+	padding: 1em;
+	border: 1px solid #ccc;
+	margin: .4em 1.4em .8em 0;
+}	
+
+#details p {
+	width: 94%;
+	line-height: 1.4em;
+	margin: 1.4em 0;
+}
+	

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="movies.css">
+	<meta charset="utf-8">
+	<title>Movies</title>
+	<script type="text/x-tmpl-mustache" id="list_template">
+		<ul>
+			{{#Search}}
+			<li><a id="{{imdbID}}" href="#">{{Title}}</a></li>
+			{{/Search}}
+		</ul>
+	</script>
+	<script type="text/x-tmpl-mustache" id="details_template">
+	<h2>{{Title}} ({{Year}})</h2>
+	<h3>Starring: {{Actors}}</h3>
+	<img id="poster" src="{{Poster}}">
+	<p>{{Plot}}</p>
+	</script>
+
+</head>
+<body>
+	<div id="search">
+		<label>Movie name:</label> <input id="search_text" type="text">
+		<button id="search_button">Search</button>
+	</div>
+	<div id="list"></div>
+	<div id="details"></div>
+
+	<script type="text/javascript" src="mustache.js"></script>
+	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="underscore-min.js"></script>
+	<script type="text/javascript" src="backbone-min.js"></script>
+	<script type="text/javascript" src="movies.js"></script>
+</body>
+</html>
